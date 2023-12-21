@@ -1,0 +1,30 @@
+repo_name: bariscaglar/testrepo
+report_id: 8f84dbbb5a85aac5763a23233e45011d
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-21T22:31:21+00:00'
+requested_by: bariscaglar
+provider: github
+branch: master
+detected_tools_count: 2
+tools:
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source: azure-pipelines.yml
+  last_updated_by: Baris Caglar
+  last_updated_on: 2019-04-10 17:28:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
